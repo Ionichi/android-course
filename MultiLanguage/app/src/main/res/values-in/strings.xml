@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Form Multi Bahasa</string>
+    <string name="location">Lokasi</string>
+    <string name="street">Jalan</string>
+    <string name="zipCode">Kode Pos</string>
+    <string name="country">Negara</string>
+    <string-array name="listCountry">
+        <item>Indonesia</item>
+        <item>Singapura</item>
+        <item>Malaysia</item>
+        <item>Filipina</item>
+        <item>Australia</item>
+    </string-array>
+    <string name="user">Pemakai</string>
+    <string name="name">Nama</string>
+    <string name="telp">Telepon</string>
+    <string name="password">Sandi</string>
+    <string name="birthDate">Tanggal Lahir</string>
+    <string name="reset">Ulang</string>
+    <string name="save">Simpan</string>
+</resources>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Multi Language</string>
+    <string name="location">Location</string>
+    <string name="street">Street</string>
+    <string name="zipCode">Zip Code</string>
+    <string name="country">Country</string>
+    <string-array name="listCountry">
+        <item>Indonesia</item>
+        <item>Singapore</item>
+        <item>Malaysia</item>
+        <item>Philippines</item>
+        <item>Australia</item>
+    </string-array>
+    <string name="user">User</string>
+    <string name="name">Name</string>
+    <string name="telp">Telephone</string>
+    <string name="password">Password</string>
+    <string name="birthDate">Birth Date</string>
+    <string name="reset">Reset</string>
+    <string name="save">Save</string>
+</resources>
