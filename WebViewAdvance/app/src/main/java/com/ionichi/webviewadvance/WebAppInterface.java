@@ -3,6 +3,7 @@ package com.ionichi.webviewadvance;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.net.Uri;
 import android.webkit.JavascriptInterface;
 import android.widget.Toast;
 
@@ -26,4 +27,14 @@ public class WebAppInterface {
         intent.addCategory(Intent.CATEGORY_APP_MESSAGING);
         _context.startActivity(intent);
     }
+
+    @JavascriptInterface
+    public void showWhatsApp(String mobileNumber, String message) {
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(
+                "https://wa.me/" + mobileNumber.replace("+" , "") + "?text=" + Uri.encode(message)
+        ));
+
+        _context.startActivity(intent);
+    }
+
 }
