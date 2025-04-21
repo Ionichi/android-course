@@ -10,5 +10,7 @@
 8. Web View Advance
 9. Web View Angular
 10. Spinner
+11. Custom Spinner
+12. Tab Layout
 
 > NB: Added Custom Splash Screen and transition animation
