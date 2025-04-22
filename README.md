@@ -12,5 +12,6 @@
 10. Spinner
 11. Custom Spinner
 12. Tab Layout
+13. Grid Layout
 
 > NB: Added Custom Splash Screen and transition animation
