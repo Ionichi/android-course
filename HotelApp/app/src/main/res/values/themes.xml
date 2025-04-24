@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.HotelApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.HotelApp" parent="Base.Theme.HotelApp" />
+    <style name="AccentButton" parent="Widget.AppCompat.Button">
+        <item name="backgroundTint">@color/colorAcent</item>
+        <item name="cornerRadius">0dp</item>
+    </style>
+</resources>
