@@ -14,6 +14,7 @@
 12. Tab Layout
 13. Grid Layout
 14. Frame Layout
-15. Hotel App
+15. Constraint Layout
+16. Hotel App
 
 > NB: Added Custom Splash Screen and transition animation
