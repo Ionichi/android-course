@@ -21,14 +21,7 @@ public class CountryAdapter extends BaseAdapter {
 
     @Override
     public int getCount() {
-        // return (countryList != null) ? countryList.size() : 0;
-
-        if (_countryList != null) {
-            return _countryList.size();
-        }
-        else {
-            return 0;
-        }
+         return (_countryList != null) ? _countryList.size() : 0;
     }
 
     @Override

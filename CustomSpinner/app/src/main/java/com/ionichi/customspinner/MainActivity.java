@@ -30,14 +30,24 @@ public class MainActivity extends AppCompatActivity {
 
         spinner1 = findViewById(R.id.spinner1);
 
-        List<String> countryList = new ArrayList<>();
-        countryList.add("Albania");
-        countryList.add("Belgia");
-        countryList.add("Hungary");
-        countryList.add("Iran");
-        countryList.add("Slovenia");
+//        List<String> countryList = new ArrayList<>();
+//        countryList.add("Albania");
+//        countryList.add("Belgia");
+//        countryList.add("Hungary");
+//        countryList.add("Iran");
+//        countryList.add("Slovenia");
+//
+//        CountryAdapter ca = new CountryAdapter(getApplicationContext(), countryList);
+//        spinner1.setAdapter(ca);
 
-        CountryAdapter ca = new CountryAdapter(getApplicationContext(), countryList);
-        spinner1.setAdapter(ca);
+        List<String> capitalCityList = new ArrayList<>();
+        capitalCityList.add("Indonesia");
+        capitalCityList.add("France");
+        capitalCityList.add("Korea");
+        capitalCityList.add("USA");
+        capitalCityList.add("England");
+
+        CapitalCityAdapter cca = new CapitalCityAdapter(getApplicationContext(), capitalCityList);
+        spinner1.setAdapter(cca);
     }
 }

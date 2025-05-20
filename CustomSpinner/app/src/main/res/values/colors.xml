@@ -2,4 +2,9 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="gradientPink">#EC407A</color>
+    <color name="gradientOrange">#FFA726</color>
+    <color name="gradientTeal">#26C6DA</color>
+    <color name="gradientBlue">#42A5F5</color>
+    <color name="gray">#BDBDBD</color>
 </resources>
