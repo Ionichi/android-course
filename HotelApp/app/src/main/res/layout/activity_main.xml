@@ -70,6 +70,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         style="@style/AccentButton"
+        android:background="@color/design_default_color_primary_dark"
         android:textColor="#fff"
         android:text="Book Now!!!" />
 </LinearLayout>
