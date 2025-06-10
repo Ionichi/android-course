@@ -17,5 +17,6 @@
 15. Constraint Layout
 16. Hotel App
 17. RecyclerView A
+18. RecyclerView B
 
 > NB: Added Custom Splash Screen and transition animation
