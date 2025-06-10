@@ -61,6 +61,6 @@ public class MahasiswaAdapter extends RecyclerView.Adapter<MahasiswaViewHolder> 
 
     @Override
     public int getItemCount() {
-        return (_mahasiswaModelList.size() != 0) ? _mahasiswaModelList.size() : 0;
+        return (_mahasiswaModelList != null) ? _mahasiswaModelList.size() : 0;
     }
 }
