@@ -42,6 +42,7 @@ dependencies {
     implementation("androidx.swiperefreshlayout:swiperefreshlayout:1.1.0")
     implementation("com.google.code.gson:gson:2.10.1")
     implementation("com.loopj.android:android-async-http:1.4.11")
+    implementation("com.squareup.picasso:picasso:2.5.2")
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
