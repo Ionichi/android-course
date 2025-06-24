@@ -19,5 +19,6 @@
 17. RecyclerView A
 18. RecyclerView B
 19. Forex
+20. Weather
 
 > NB: Added Custom Splash Screen and transition animation
