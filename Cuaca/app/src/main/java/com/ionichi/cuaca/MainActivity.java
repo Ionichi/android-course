@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
     private RootModel _rootModel;
     private SwipeRefreshLayout _swipeRefreshLayout;
     private TextView _totalTextView;
-    private TextView _cityInfoTextView;
+    private Button _cityInfoButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,8 +54,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initButtonViewCityInfo() {
-        _cityInfoTextView = findViewById(R.id.cityInfoTextView);
-        _cityInfoTextView.setOnClickListener(new View.OnClickListener() {
+        _cityInfoButton = findViewById(R.id.cityInfoButton);
+        _cityInfoButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 CityModel cm = _rootModel.getCityModel();
@@ -125,6 +125,6 @@ public class MainActivity extends AppCompatActivity {
 
         String cityInfo = "Kota: " + cityName + "\n" + "Matahari Terbit: " + sunriseTime + " (Lokal)\n" + "Matahari Terbenam: " + sunsetTime + " (Lokal)";
 
-        _cityInfoTextView.setText(cityInfo);
+        _cityInfoButton.setText(cityInfo);
     }
 }

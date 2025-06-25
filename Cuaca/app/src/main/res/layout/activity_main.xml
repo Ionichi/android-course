@@ -11,36 +11,31 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-        <TextView
+        <com.google.android.material.button.MaterialButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#FFAA33"
-            android:id="@+id/cityInfoTextView"
+            android:backgroundTint="#FFAA33"
+            android:id="@+id/cityInfoButton"
             android:textColor="@color/white"
-            android:padding="16dp"
-            android:textSize="18sp"
             android:textStyle="bold"
-            android:gravity="center" />
+            android:gravity="center"
+            android:layout_margin="5dp"
+            app:cornerRadius="5dp" />
         
         <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
             android:id="@+id/recyclerView1" />
-        <LinearLayout
+
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:background="@color/cardview_dark_background"
-            android:padding="16dp">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Total Record: "
-                android:id="@+id/totalTextView"
-                android:textSize="24sp"
-                android:textColor="@color/white" />
-        </LinearLayout>
+            android:text="Total Record: "
+            android:id="@+id/totalTextView"
+            android:padding="5dp"
+            android:textColor="#ffffff"
+            android:background="#FFAA33" />
     </LinearLayout>
 
 </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
