@@ -19,7 +19,7 @@
             android:layout_gravity="center"
             app:cardCornerRadius="20dp"
             app:cardBackgroundColor="#80ffc107">
-            <com.google.android.material.imageview.ShapeableImageView
+            <ImageView
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
