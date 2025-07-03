@@ -29,4 +29,14 @@
         android:id="@+id/tampilMahasiswaButton"
         android:textAllCaps="true" />
 
+    <com.google.android.material.button.MaterialButton
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@android:color/transparent"
+        android:drawableEnd="@drawable/img_weather_lightning_128"
+        android:textColor="#fff"
+        android:text="Cuaca"
+        android:id="@+id/tampilCuacaButton"
+        android:textAllCaps="true" />
+
 </GridLayout>
