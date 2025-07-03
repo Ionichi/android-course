@@ -13,9 +13,10 @@
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:background="@android:color/transparent"
-        android:drawableEnd="@drawable/img_teenagers_128"
+        android:drawableEnd="@drawable/img_dollar_128"
         android:textColor="#fff"
-        android:text="Master Pemakai"
+        android:text="Forex"
+        android:id="@+id/tampilForexButton"
         android:textAllCaps="true" />
 
     <com.google.android.material.button.MaterialButton
